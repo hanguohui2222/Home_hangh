@@ -123,7 +123,7 @@ public class HomeFragment extends BaseFragment implements
         tb_home.setTopbarOnClickListener(new Topbar.TopbarOnClickListener() {
             @Override
             public void leftOnClick() {
-                MainActivity.sm_menu.openDrawer(GravityCompat.START);
+                ((MainActivity)getActivity()).sm_menu.openDrawer(GravityCompat.START);
             }
 
             @Override

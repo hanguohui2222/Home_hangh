@@ -88,8 +88,8 @@ public class MainActivity extends BaseActivity {
     private ArrayList<BaseFragment> mPagerList;
     private long mExitTime;
     private Context mContext;
-    public static DrawerLayout sm_menu;
-    public static TextView tvMessageCount;
+    public DrawerLayout sm_menu;
+    public TextView tvMessageCount;
 
     private HomeFragment homeFragment;
     private ChatFragment chatFragment;
