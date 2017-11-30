@@ -24,7 +24,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
-        <com.lqm.home.widget.Topbar
+        <com.hangh.home.widget.Topbar
             android:id="@+id/topbar_about"
             android:layout_width="match_parent"
             android:layout_height="45dp"

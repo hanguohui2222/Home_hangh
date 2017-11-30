@@ -5,10 +5,10 @@ android {
         config {
         }
         config1 {
-            keyAlias 'home'
-            keyPassword '1401090112'
-            storeFile file('C:/AboutHomeBa/home.jks')
-            storePassword '1401090112'
+            keyAlias 'gionee'
+            keyPassword '123456'
+            storeFile file('/home/han/hangh/gionee.jks')
+            storePassword '123456'
         }
     }
     compileSdkVersion 25

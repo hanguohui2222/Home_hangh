@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lqm.home"
+    package="com.hangh.home"
     >
 
     <!-- 视频录制的权限star   -->
@@ -90,7 +90,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/app_logo"
         android:label="@string/app_name"
-        android:name=".app.App"
+        android:name="com.hangh.home.app.App"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
@@ -159,11 +159,11 @@
         <!--###############################网易云信配置 end###############################-->
 
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.hangh.home.activity.MainActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".activity.SplashActivity"
+        <activity android:name="com.hangh.home.activity.SplashActivity"
                   android:launchMode="singleTask"
                   android:screenOrientation="portrait" >
             <intent-filter>
@@ -172,59 +172,59 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity.GuideActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.WritePostActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.PostDetailActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".activity.WebViewActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.SettingActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.NotesActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.LoginActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.MyInfoActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.WriteNotesActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.FeedBackActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.AboutActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.RegisterActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.RegisterNextActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.LoginOrRegistActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.RegionActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.SignActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.SelectHomeActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.CreateVillageActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.WeiXinArticleActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.ArticleDetailActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.FunnyActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.BaiDuImageActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.GuideActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.WritePostActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.PostDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.hangh.home.activity.WebViewActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.SettingActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.NotesActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.LoginActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.MyInfoActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.WriteNotesActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.FeedBackActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.AboutActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.RegisterActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.RegisterNextActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.LoginOrRegistActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.RegionActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.SignActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.SelectHomeActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.CreateVillageActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.WeiXinArticleActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.ArticleDetailActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.FunnyActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.BaiDuImageActivity" android:screenOrientation="portrait" />
 
         <activity
             android:name="com.lzy.imagepicker.ui.ImagePreviewDelActivity"
             android:theme="@style/ImagePickerThemeFullScreen"/>
 
         <!--  ========================= 云信  =======================-->
-        <activity android:name=".activity.SessionActivity" android:screenOrientation="portrait"
+        <activity android:name="com.hangh.home.activity.SessionActivity" android:screenOrientation="portrait"
                   android:launchMode="singleTop"/>
-        <activity android:name=".activity.ImageWatchActivity" android:screenOrientation="portrait"
+        <activity android:name="com.hangh.home.activity.ImageWatchActivity" android:screenOrientation="portrait"
                   android:launchMode="singleTask"/>
-        <activity android:name=".activity.FileWallActivity" android:screenOrientation="portrait"
+        <activity android:name="com.hangh.home.activity.FileWallActivity" android:screenOrientation="portrait"
             android:launchMode="singleTask"/>
-        <activity android:name=".activity.UserInfoActivity" android:screenOrientation="portrait"
+        <activity android:name="com.hangh.home.activity.UserInfoActivity" android:screenOrientation="portrait"
                   android:launchMode="singleTask"/>
-        <activity android:name=".activity.FilePreviewActivity" android:screenOrientation="portrait"
+        <activity android:name="com.hangh.home.activity.FilePreviewActivity" android:screenOrientation="portrait"
                   android:launchMode="singleTask"/>
-        <activity android:name=".activity.NewFriendActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.TeamCheatInfoActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.TeamNameSetActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.TeamAnnouncementEditActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.TeamCheatCreateActvitiy" android:screenOrientation="portrait" />
-        <activity android:name=".activity.TeamCheatRemoveMemberActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.SearchUserActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.PostscriptActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.ShowBigImageActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.ChangeNameActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.ChangeSignatureActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.QRCodeCardActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.ScanActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.AliasActivity" android:screenOrientation="portrait" />
-        <activity android:name=".activity.NearbyMapActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.NewFriendActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.TeamCheatInfoActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.TeamNameSetActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.TeamAnnouncementEditActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.TeamCheatCreateActvitiy" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.TeamCheatRemoveMemberActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.SearchUserActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.PostscriptActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.ShowBigImageActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.ChangeNameActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.ChangeSignatureActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.QRCodeCardActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.ScanActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.AliasActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.hangh.home.activity.NearbyMapActivity" android:screenOrientation="portrait" />
 
 
 
@@ -287,19 +287,19 @@
         <!-- 【必须】 【注意】authorities修改为 包名.AUTH_XGPUSH, 如demo的包名为：com.qq.xgdemo-->
         <provider
             android:name="com.tencent.android.tpush.XGPushProvider"
-            android:authorities="com.lqm.home.AUTH_XGPUSH"
+            android:authorities="com.hangh.home.AUTH_XGPUSH"
             android:exported="true"/>
 
         <!-- 【必须】 【注意】authorities修改为 包名.TPUSH_PROVIDER, 如demo的包名为：com.qq.xgdemo-->
         <provider
             android:name="com.tencent.android.tpush.SettingsContentProvider"
-            android:authorities="com.lqm.home.TPUSH_PROVIDER"
+            android:authorities="com.hangh.home.TPUSH_PROVIDER"
             android:exported="false" />
 
         <!-- 【必须】 【注意】authorities修改为 包名.TENCENT.MID.V3, 如demo的包名为：com.qq.xgdemo-->
         <provider
             android:name="com.tencent.mid.api.MidProvider"
-            android:authorities="com.lqm.home.TENCENT.MID.V3"
+            android:authorities="com.hangh.home.TENCENT.MID.V3"
             android:exported="true" >
         </provider>
 
@@ -316,7 +316,7 @@
 
         <!--authorities="你的包名+fileprovider" -->
         <provider
-            android:authorities="com.lqm.home.fileprovider"
+            android:authorities="com.hangh.home.fileprovider"
             android:name="android.support.v4.content.FileProvider"
             android:grantUriPermissions="true"
             android:exported="false">

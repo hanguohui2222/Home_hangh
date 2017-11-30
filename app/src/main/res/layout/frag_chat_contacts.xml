@@ -12,7 +12,7 @@
         app:rv_orientation="vertical"
         app:rv_type="grid"/>
 
-    <com.lqm.home.widget.QuickIndexBar
+    <com.hangh.home.widget.QuickIndexBar
         android:id="@+id/quickIndexBar"
         android:layout_width="20dp"
         android:layout_height="match_parent"

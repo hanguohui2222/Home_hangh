@@ -5,7 +5,7 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-    <com.lqm.home.widget.Topbar
+    <com.hangh.home.widget.Topbar
         android:id="@+id/topbar_nearby"
         android:layout_width="match_parent"
         android:layout_height="45dp"

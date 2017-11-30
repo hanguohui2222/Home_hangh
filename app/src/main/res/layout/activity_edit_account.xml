@@ -49,7 +49,7 @@
             android:layout_marginRight="15dp"
             />
 
-        <com.lqm.home.widget.OptionItemView
+        <com.hangh.home.widget.OptionItemView
             android:id="@+id/oivName"
             style="@style/OptionItem"
             android:background="@drawable/selector_option_item"
@@ -68,7 +68,7 @@
             android:layout_marginRight="15dp"
             />
 
-        <com.lqm.home.widget.OptionItemView
+        <com.hangh.home.widget.OptionItemView
             android:id="@+id/oivAccount"
             style="@style/OptionItem"
             android:background="@drawable/selector_option_item"
@@ -87,7 +87,7 @@
             android:layout_marginRight="15dp"
             />
 
-        <com.lqm.home.widget.OptionItemView
+        <com.hangh.home.widget.OptionItemView
             android:id="@+id/oivQRCordCard"
             style="@style/OptionItem"
             app:left_text="二维码名片"
@@ -106,7 +106,7 @@
         android:layout_marginTop="20dp"
         android:orientation="vertical">
 
-        <com.lqm.home.widget.OptionItemView
+        <com.hangh.home.widget.OptionItemView
             android:background="@drawable/selector_option_item"
             android:id="@+id/oivGender"
             style="@style/OptionItem"
@@ -125,7 +125,7 @@
             android:layout_marginRight="15dp"
             />
 
-        <com.lqm.home.widget.OptionItemView
+        <com.hangh.home.widget.OptionItemView
             style="@style/OptionItem"
             android:background="@drawable/selector_option_item"
             app:left_text="地区"

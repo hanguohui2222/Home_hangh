@@ -135,7 +135,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"/>
 
-                    <com.lqm.home.widget.DotView
+                    <com.hangh.home.widget.DotView
                         android:visibility="gone"
                         android:id="@+id/dv"
                         android:layout_width="match_parent"
@@ -256,7 +256,7 @@
                     android:textSize="10sp"
                     android:visibility="gone"/>
 
-                <com.lqm.home.widget.LQRRecordProgress
+                <com.hangh.home.widget.LQRRecordProgress
                     android:id="@+id/rp"
                     android:layout_width="match_parent"
                     android:layout_height="5dp"

@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <com.lqm.home.widget.Topbar
+        <com.hangh.home.widget.Topbar
             android:id="@+id/regist_topbar"
             app:title_text="注册"
             app:title_text_size="16sp"
