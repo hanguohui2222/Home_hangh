@@ -14,7 +14,7 @@
 
     <!-- 底部RadioButton的样式 -->
     <style name="BottomTabStyle">
-        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_width">0px</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center_vertical</item>
         <item name="android:button">@null</item>
