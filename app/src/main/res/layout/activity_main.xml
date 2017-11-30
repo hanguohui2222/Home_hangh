@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <com.hangh.home.widget.NoScrollViewPager
+        <com.hangh.home.ui.widget.NoScrollViewPager
             android:id="@+id/vp_content"
             android:layout_width="match_parent"
             android:layout_height="0dp"

@@ -1,7 +1,7 @@
 package com.hangh.home.utilslqr;
 
 
-import com.hangh.home.model.Contact;
+import com.hangh.home.bean.Contact;
 
 import java.util.ArrayList;
 import java.util.Collections;

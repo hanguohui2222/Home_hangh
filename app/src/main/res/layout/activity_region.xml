@@ -6,7 +6,7 @@
     android:baselineAligned="false"
     android:orientation="vertical" >
 
-    <com.hangh.home.widget.Topbar
+    <com.hangh.home.ui.widget.Topbar
         android:id="@+id/regist_topbar"
         app:title_text="选择城市"
         app:title_text_size="16sp"

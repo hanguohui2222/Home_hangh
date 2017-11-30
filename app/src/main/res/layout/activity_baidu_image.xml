@@ -6,7 +6,7 @@
       xmlns:app="http://schemas.android.com/apk/res-auto"
     >
 
-    <com.hangh.home.widget.Topbar
+    <com.hangh.home.ui.widget.Topbar
         android:background="@color/blue_light"
         app:title_text="图片浏览"
         app:title_text_color="@color/white"

@@ -5,7 +5,7 @@ import android.content.SharedPreferences;
 
 import com.alibaba.fastjson.JSON;
 import com.hangh.home.app.App;
-import com.hangh.home.model.UserServer;
+import com.hangh.home.bean.UserServer;
 
 /**
  * SharePreference的封装

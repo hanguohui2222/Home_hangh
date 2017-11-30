@@ -40,7 +40,7 @@
                 android:orientation="vertical"
                 android:visibility="visible">
 
-                <com.hangh.home.widget.OptionItemView
+                <com.hangh.home.ui.widget.OptionItemView
                     android:id="@+id/oivTeamName"
                     style="@style/OptionItem"
                     android:background="@drawable/selector_option_item"
@@ -59,7 +59,7 @@
                     android:layout_marginRight="15dp"
                     />
 
-                <com.hangh.home.widget.OptionItemView
+                <com.hangh.home.ui.widget.OptionItemView
                     android:id="@+id/oivQRCordCard"
                     style="@style/OptionItem"
                     android:background="@drawable/selector_option_item"
@@ -122,7 +122,7 @@
                     android:visibility="gone"
                     />
 
-                <com.hangh.home.widget.OptionItemView
+                <com.hangh.home.ui.widget.OptionItemView
                     android:id="@+id/oivTeamManage"
                     style="@style/OptionItem"
                     android:background="@drawable/selector_option_item"
@@ -234,7 +234,7 @@
                 android:orientation="vertical"
                 android:visibility="gone">
 
-                <com.hangh.home.widget.OptionItemView
+                <com.hangh.home.ui.widget.OptionItemView
                     android:id="@+id/oivNickNameInTeam"
                     style="@style/OptionItem"
                     android:background="@drawable/selector_option_item"
@@ -297,7 +297,7 @@
                 android:orientation="vertical"
                 android:visibility="gone">
 
-                <com.hangh.home.widget.OptionItemView
+                <com.hangh.home.ui.widget.OptionItemView
                     style="@style/OptionItem"
                     android:background="@drawable/selector_option_item"
                     app:left_text="设置当前聊天前景"
@@ -311,7 +311,7 @@
                     android:layout_marginRight="15dp"
                     />
 
-                <com.hangh.home.widget.OptionItemView
+                <com.hangh.home.ui.widget.OptionItemView
                     style="@style/OptionItem"
                     android:background="@drawable/selector_option_item"
                     app:left_text="查找聊天记录"
@@ -325,7 +325,7 @@
                     android:layout_marginRight="15dp"
                     />
 
-                <com.hangh.home.widget.OptionItemView
+                <com.hangh.home.ui.widget.OptionItemView
                     style="@style/OptionItem"
                     android:background="@drawable/selector_option_item"
                     app:left_text="聊天文件"
@@ -339,7 +339,7 @@
                     android:layout_marginRight="15dp"
                     />
 
-                <com.hangh.home.widget.OptionItemView
+                <com.hangh.home.ui.widget.OptionItemView
                     style="@style/OptionItem"
                     android:background="@drawable/selector_option_item"
                     app:left_text="投诉"
@@ -348,7 +348,7 @@
                     app:left_text_size="16sp"/>
             </LinearLayout>
 
-            <com.hangh.home.widget.OptionItemView
+            <com.hangh.home.ui.widget.OptionItemView
                 android:id="@+id/oivClearMsgRecord"
                 style="@style/OptionItem"
                 android:layout_marginTop="20dp"

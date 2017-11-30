@@ -84,7 +84,7 @@
             </LinearLayout>
         </LinearLayout>
 
-        <com.hangh.home.widget.OptionItemView
+        <com.hangh.home.ui.widget.OptionItemView
             android:visibility="gone"
             android:id="@+id/oivAliasAndTag"
             style="@style/OptionItem"
@@ -226,7 +226,7 @@
                 android:gravity="center"
                 android:orientation="vertical">
 
-                <com.hangh.home.widget.OptionItemView
+                <com.hangh.home.ui.widget.OptionItemView
                     android:id="@+id/oivAlias"
                     android:visibility="gone"
                     style="@style/OptionItem"
@@ -237,7 +237,7 @@
                     app:left_text="设置备注及标签"
                     app:left_text_color="@color/gray1"/>
 
-                <com.hangh.home.widget.OptionItemView
+                <com.hangh.home.ui.widget.OptionItemView
                     style="@style/OptionItem"
                     android:background="@drawable/selector_option_item"
                     android:visibility="gone"
@@ -247,7 +247,7 @@
                     app:left_text="标为星标朋友"
                     app:left_text_color="@color/gray1"/>
 
-                <com.hangh.home.widget.OptionItemView
+                <com.hangh.home.ui.widget.OptionItemView
                     android:id="@+id/oivFriendsCirclePrivacySet"
                     style="@style/OptionItem"
                     android:background="@drawable/selector_option_item"
@@ -258,7 +258,7 @@
                     app:left_text="设置朋友圈权限"
                     app:left_text_color="@color/gray1"/>
 
-                <com.hangh.home.widget.OptionItemView
+                <com.hangh.home.ui.widget.OptionItemView
                     style="@style/OptionItem"
                     android:background="@drawable/selector_option_item"
                     android:visibility="gone"
@@ -268,7 +268,7 @@
                     app:left_text="发送该名片"
                     app:left_text_color="@color/gray1"/>
 
-                <com.hangh.home.widget.OptionItemView
+                <com.hangh.home.ui.widget.OptionItemView
                     style="@style/OptionItem"
                     android:background="@drawable/selector_option_item"
                     android:visibility="gone"
@@ -278,7 +278,7 @@
                     app:left_text="投诉"
                     app:left_text_color="@color/gray1"/>
 
-                <com.hangh.home.widget.OptionItemView
+                <com.hangh.home.ui.widget.OptionItemView
                     android:id="@+id/oivAddToBlackList"
                     style="@style/OptionItem"
                     android:background="@drawable/selector_option_item"
@@ -288,7 +288,7 @@
                     app:left_text="加入黑名单"
                     app:left_text_color="@color/gray1"/>
 
-                <com.hangh.home.widget.OptionItemView
+                <com.hangh.home.ui.widget.OptionItemView
                     android:id="@+id/oivDelete"
                     style="@style/OptionItem"
                     android:background="@drawable/selector_option_item"
@@ -298,7 +298,7 @@
                     app:left_text="删除"
                     app:left_text_color="@color/gray1"/>
 
-                <com.hangh.home.widget.OptionItemView
+                <com.hangh.home.ui.widget.OptionItemView
                     style="@style/OptionItem"
                     android:background="@drawable/selector_option_item"
                     android:visibility="gone"

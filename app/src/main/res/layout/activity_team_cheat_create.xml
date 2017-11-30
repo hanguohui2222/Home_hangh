@@ -75,7 +75,7 @@
         </LinearLayout>
 
         <!--快速导航条-->
-        <com.hangh.home.widget.QuickIndexBar
+        <com.hangh.home.ui.widget.QuickIndexBar
             android:id="@+id/quickIndexBar"
             android:layout_width="20dp"
             android:layout_height="match_parent"

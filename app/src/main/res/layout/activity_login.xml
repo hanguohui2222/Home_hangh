@@ -5,7 +5,7 @@
     android:orientation="vertical"
     >
 
-    <com.hangh.home.widget.Topbar
+    <com.hangh.home.ui.widget.Topbar
         android:id="@+id/login_topbar"
         app:title_text="登录"
         app:title_text_size="16sp"

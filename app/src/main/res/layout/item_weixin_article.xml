@@ -33,7 +33,7 @@
                 android:layout_marginRight="100dp"
                 tools:text="标题标题标题标题标题标题标题"/>
 
-            <com.hangh.home.widget.RoundRectImageView
+            <com.hangh.home.ui.widget.RoundRectImageView
                 android:id="@+id/iv_img"
                 android:layout_width="70dp"
                 android:layout_height="70dp"

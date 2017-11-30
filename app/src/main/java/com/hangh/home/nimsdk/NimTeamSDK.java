@@ -3,7 +3,7 @@ package com.hangh.home.nimsdk;
 import android.text.TextUtils;
 
 import com.hangh.home.app.AppConst;
-import com.hangh.home.model.UserCache;
+import com.hangh.home.bean.UserCache;
 import com.netease.nimlib.sdk.InvocationFuture;
 import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.Observer;

@@ -4,7 +4,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.hangh.home.activity.LoginOrRegistActivity;
+import com.hangh.home.ui.activity.LoginOrRegistActivity;
 import com.hangh.home.utilslqr.UIUtils;
 
 import static com.netease.nimlib.sdk.StatusCode.FORBIDDEN;

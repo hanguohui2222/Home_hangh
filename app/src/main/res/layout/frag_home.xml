@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
 
-    <com.hangh.home.widget.Topbar
+    <com.hangh.home.ui.widget.Topbar
         android:id="@+id/topbar_home"
         android:background="@color/blue_light"
         android:layout_width="match_parent"

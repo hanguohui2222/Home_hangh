@@ -6,7 +6,7 @@
               android:background="#ebebeb"
               android:orientation="vertical">
 
-    <com.hangh.home.widget.Topbar
+    <com.hangh.home.ui.widget.Topbar
         android:id="@+id/regist_topbar"
         android:layout_width="match_parent"
         android:layout_height="42dp"

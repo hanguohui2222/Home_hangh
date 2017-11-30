@@ -4,7 +4,7 @@
     <version value="1" />
 
     <list>
-        <mapping  class ="com.hangh.home.model.Note"/>
+        <mapping  class ="com.hangh.home.bean.Note"/>
     </list>
 
 </litepal>
